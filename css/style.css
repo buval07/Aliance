@@ -2,20 +2,58 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Bebas Neue Book";
+  src: url("../fonts/BebasNeueBook.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-family: "Noto Sans", sans-serif;
 }
 
 .header__logo {
   padding: 25px 50px;
+  border-right: 1px solid rgba(235, 235, 240, 0.2);
+  height: 100%;
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
 }
 
 .navbar {
-  background-color: #585757;
   display: flex;
   align-items: center;
   color: #fff;
   height: 94px;
+  position: relative;
+  border-bottom: 1px solid rgba(235, 235, 240, 0.2);
+}
+
+.header {
+  min-height: 100vh;
+}
+
+.header-image {
+  background-image: url("../img/header-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.header-image::after {
+  content: "";
+  position: absolute;
+  background: rgba(41, 45, 51, 0.6);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
 }
 
 .header__nav {
@@ -54,15 +92,67 @@ body {
   line-height: 160%;
   color: white;
   background: #3a71d1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding: 25px 60px;
-  gap: 10px;
   border: none;
-  flex-shrink: 0;
+  display: inline-block;
+  cursor: pointer;
 }
 
-.header__button {
+.navbar__button {
+  flex-shrink: 0;
   height: 100%;
+}
+
+.seporatoor {
+  background: #5cbee6;
+  width: 150px;
+  height: 2px;
+}
+
+.header-content {
+  padding-top: 150px;
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+
+.header__title {
+  min-width: 1080px;
+  font-family: "Bebas Neue Book";
+  font-size: 80px;
+  line-height: 120%;
+  margin: 30px 0;
+}
+
+.header__text {
+  max-width: 720px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  margin-bottom: 50px;
+}
+
+.header__features {
+  display: flex;
+  position: relative;
+  min-height: 168px;
+  padding: 0;
+  margin-top: 100px;
+  list-style: none;
+  color: #fff;
+}
+
+.heder__features-item {
+  padding: 30px 50px;
+  border: 1px solid rgba(235, 235, 240, 0.2);
+}
+
+.header__features-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.heder__features-item:not(:last-child) {
+  border-right: none;
 }

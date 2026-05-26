@@ -9,19 +9,22 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,800;1,14..32,800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Aliance Production</title>
   </head>
   <body>
-    <div class="header">
+    <header class="header header-image">
       <nav class="navbar">
-        <a href="./" class="header__logo"></a>
-        <img
-          src="./img/logo-light.svg"
-          alt="Aliance Production"
-          class="logo-light"
-        />
+        <a href="./" class="header__logo">
+          <img
+            src="./img/logo-light.svg"
+            alt="Aliance Production"
+            class="logo-light"
+          />
+        </a>
+
         <ul class="header__nav">
           <li class="header__nav-item">
             <a href="#" class="header__nav-link">О компании</a>
@@ -46,10 +49,74 @@
           </a>
         </div>
         <!-- /.header__phone -->
-        <button class="header__button button">Получить консультацию</button>
+        <button class="navbar__button button">Получить консультацию</button>
       </nav>
       <!-- /.navbar -->
-    </div>
+      <div class="container">
+        <div class="header-content">
+          <div class="seporatoor"></div>
+          <h1 class="header__title">
+            Комплексное обеспечение товарами и расходными материалами бизнеса
+          </h1>
+          <p class="header__text">
+            Высокий уровень вовлечения представителей целевой аудитории является
+            четким доказательством простого факта: высококачественный прототип
+            будущего проекта напрямую зависит от анализа существующих паттернов
+            поведения.
+          </p>
+          <button class="button">Подробнее о компании</button>
+        </div>
+        <!-- /.header-content -->
+        <ul class="header__features">
+          <li class="heder__features-item">
+            <img
+              src="./img/features/time.svg"
+              alt="time"
+              class="header__features-icon"
+            />
+            <p class="header__features-text">Непрерывная работа c 2017 года</p>
+          </li>
+          <li class="heder__features-item">
+            <img
+              src="./img/features/certificate.svg"
+              alt="certificate"
+              class="header__features-icon"
+            />
+            <p class="header__features-text">Вся продукция сертифицирована</p>
+          </li>
+          <li class="heder__features-item">
+            <img
+              src="./img/features/control.svg"
+              alt="control"
+              class="header__features-icon"
+            />
+            <p class="header__features-text">
+              Контроль качества на всех этапах
+            </p>
+          </li>
+          <li class="heder__features-item">
+            <img
+              src="./img/features/delivery.svg"
+              alt="delivery"
+              class="header__features-icon"
+            />
+            <p class="header__features-text">
+              Возможны поставки по всей России
+            </p>
+          </li>
+          <li class="heder__features-item">
+            <img
+              src="./img/features/speed.svg"
+              alt="speed"
+              class="header__features-icon"
+            />
+            <p class="header__features-text">Оперативное производство</p>
+          </li>
+        </ul>
+        <!-- /.htader-features -->
+      </div>
+      <!-- /.container -->
+    </header>
     <script src="js/main.JS"></script>
   </body>
 </html>
