@@ -30,6 +30,7 @@ body {
   color: #fff;
   height: 94px;
   position: relative;
+  z-index: 1;
   border-bottom: 1px solid rgba(235, 235, 240, 0.2);
 }
 
@@ -103,7 +104,7 @@ body {
   height: 100%;
 }
 
-.seporatoor {
+.seporator {
   background: #5cbee6;
   width: 150px;
   height: 2px;
