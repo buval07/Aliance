@@ -163,6 +163,7 @@ body {
   margin-top: 100px;
   list-style: none;
   color: #fff;
+  z-index: 1;
 }
 
 .heder__features-item {
