@@ -15,7 +15,87 @@
     <title>Aliance Production</title>
   </head>
   <body>
+    <div class="mobile-menu">
+      <ul class="mobile-menu__nav">
+        <li class="mobile-menu__nav-item">
+          <a href="#" class="mobile-menu__nav-link">О компании</a>
+        </li>
+        <li class="mobile-menu__nav-item">
+          <a href="#" class="mobile-menu__nav-link">Контрактное производство</a>
+          <ul class="mobile-submenu">
+            <li class="mobile-submenu-item">
+              <a class="mobile-submenu__link" href="#">Автомобильная химия</a>
+            </li>
+            <li class="mobile-submenu-item">
+              <a class="mobile-submenu__link" href="#">Бытовая химия</a>
+            </li>
+            <li class="mobile-submenu-item">
+              <a class="mobile-submenu__link" href="#"
+                >Дизенфицирующие средства</a
+              >
+            </li>
+            <li class="mobile-submenu-item">
+              <a class="mobile-submenu__link" href="#">Пищевые аэрозоли</a>
+            </li>
+            <li class="mobile-submenu-item">
+              <a class="mobile-submenu__link" href="#"
+                >Косметическая продукция</a
+              >
+            </li>
+            <li class="mobile-submenu-item">
+              <a class="mobile-submenu__link" href="#">Краски аэрозольные</a>
+            </li>
+          </ul>
+        </li>
+        <li class="mobile-menu__nav-item">
+          <a href="#" class="mobile-menu__nav-link"
+            >Собственные торговые марки</a
+          >
+        </li>
+        <li class="mobile-menu__nav-item">
+          <a href="#" class="mobile-menu__nav-link">Новости</a>
+        </li>
+        <li class="mobile-menu__nav-item">
+          <a href="#" class="mobile-menu__nav-link">Контакты</a>
+        </li>
+      </ul>
+      <a href="tel:+74996861014" class="mobile-phone">+7 (499) 686-10-14</a>
+      <div class="mobile-info">
+        <svg class="phone-svg" width="24" height="24">
+          <use href="./img/sprite.svg#mark"></use>
+        </svg>
+        <address class="mobile-info__address">
+          г. Мосвка, Холодильный пер. 4к1с8
+        </address>
+      </div>
+      <!--/.mobile-info-->
+      <div class="mobile-info">
+        <svg class="phone-svg" width="24" height="24">
+          <use href="./img/sprite.svg#mail"></use>
+        </svg>
+        <a href="mailto:a.dragunov@tdaliance.ru" class="mobile-info__email"
+          >a.dragunov@tdaliance.ru</a
+        >
+      </div>
+      <!--/.mobile-info-->
+      <div class="mobile-social">
+        <a href="#" class="mobile-social__icon"
+          ><svg class="phone-svg" width="24" height="24">
+            <use href="./img/sprite.svg#vk"></use></svg
+        ></a>
+        <a href="#" class="mobile-social__icon"
+          ><svg class="phone-svg" width="24" height="24">
+            <use href="./img/sprite.svg#stg"></use></svg
+        ></a>
+      </div>
+      <!-- /.mobile-social -->
+    </div>
     <nav class="navbar">
+      <a href="#" class="mobile-menu-toggle">
+        <div class="mobile-menu-line"></div>
+        <div class="mobile-menu-line"></div>
+        <div class="mobile-menu-line"></div>
+      </a>
       <a href="./" class="header__logo">
         <svg class="logo-svg">
           <use href="./img/sprite.svg#logo-light"></use>
@@ -47,7 +127,12 @@
         </a>
       </div>
       <!-- /.header__phone -->
-      <button class="navbar__button button">Получить консультацию</button>
+      <button class="navbar__button button">
+        <svg class="butto-icon" width="24" height="24">
+          <use href="./img/sprite.svg#phone"></use>
+        </svg>
+        <span class="button-text">Получить консультацию</span>
+      </button>
     </nav>
     <!-- /.navbar -->
     <header class="header header-image">
