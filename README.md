@@ -1,5 +1,5 @@
-# html-starter
+# Aliance
 
-Стартовый шаблон для верстки очередного проекта
+https://buval07.github.io/Aliance/
 
 ### Автор: Валерий Буторин
