@@ -36,3 +36,30 @@ mMenuToggle.addEventListener("click", (event) => {
   event.preventDefault(); //Что бы браузер не реагировал на событие
   menu.classList.contains("is-open") ? closeMenu() : openMenu();
 });
+
+const swiper = new Swiper(".swiper", {
+  // Optional parameters
+  speed: 400,
+  autoHeight: true,
+  slidesPerView: 1,
+
+  // Navigation arrows
+  navigation: {
+    nextEl: ".slider-button-next",
+    prevEl: ".slider-button-prev",
+  },
+  breakpoints: {
+    576: {
+      slidesPerView: 2,
+    },
+    768: {
+      slidesPerView: 3,
+    },
+    1024: {
+      slidesPerView: 4,
+    },
+    1200: {
+      slidesPerView: 5,
+    },
+  },
+});
