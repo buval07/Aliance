@@ -3,7 +3,7 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 @font-face {
@@ -22,7 +22,7 @@ body {
 }
 
 .container {
-  max-width: 90rem;
+  max-width: 1440px;
   margin: auto;
 }
 
@@ -30,20 +30,20 @@ body {
   display: flex;
   align-items: center;
   color: #fff;
-  height: 5.875rem;
+  height: 94px;
   position: fixed;
   z-index: 2;
   width: 100%;
   left: 0;
   top: 0;
-  border-bottom: 1px solid rgba(235, 235, 240, 0.2);
+  border-bottom: 0.0625rem solid rgba(235, 235, 240, 0.2);
   transition:
     background-color 0.2s,
     height 0.2s;
 }
 
 .navbar-light {
-  height: 4.625rem;
+  height: 74px;
   background-color: #fff;
   color: #292d33;
 }
@@ -52,9 +52,13 @@ body {
   fill: #5c8ee6;
 }
 
+.logo {
+  display: none;
+}
+
 .logo-svg {
-  width: 144px;
-  height: 44px;
+  width: 9rem;
+  height: 2.75rem;
 }
 
 .navbar-light .header__logo-path {
@@ -62,7 +66,7 @@ body {
 }
 
 .header {
-  padding-top: 5.875rem;
+  padding-top: 94px;
 }
 
 .header-image {
@@ -87,8 +91,8 @@ body {
 .header__logo {
   display: flex;
   align-items: center;
-  padding: 0px 3.125rem;
-  border-right: 1px solid rgba(235, 235, 240, 0.2);
+  padding: 0rem 50px;
+  border-right: 0.0625rem solid rgba(235, 235, 240, 0.2);
   height: 100%;
 }
 
@@ -97,17 +101,17 @@ body {
   display: flex;
   list-style: none;
   padding: 0;
-  padding-left: 3.125rem;
+  padding-left: 50px;
   margin: 0;
 }
 
 .header__nav-item:not(:last-child) {
-  margin-right: 3.125rem;
+  margin-right: 50px;
 }
 
 .header__nav-link {
   text-decoration: none;
-  font-size: 16px;
+  font-size: 1rem;
   color: inherit;
 }
 
@@ -115,24 +119,24 @@ body {
   flex-shrink: 0;
   display: flex;
   align-items: center;
-  gap: 0.625rem;
+  gap: 10px;
   text-decoration: none;
-  margin-right: 3.125rem;
+  margin-right: 50px;
 }
 
 .header__phone-link {
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 16px;
   color: inherit;
 }
 
 .button {
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 16px;
   line-height: 160%;
   color: white;
   background: #3a71d1;
-  padding: 1.5625rem 3.75rem;
+  padding: 25px 60px;
   border: none;
   display: inline-block;
   cursor: pointer;
@@ -141,7 +145,7 @@ body {
 .navbar__button {
   flex-shrink: 0;
   height: 100%;
-  padding: 1.5625rem 3.3125rem;
+  padding: 25px 53px;
 }
 
 .navbar__button .butto-icon {
@@ -150,41 +154,41 @@ body {
 
 .seporator {
   background: #5cbee6;
-  width: 9.375rem;
-  height: 0.125rem;
+  width: 150px;
+  height: 2px;
 }
 
 .header-content {
-  padding-top: 9.375rem;
+  padding-top: 150px;
   position: relative;
   z-index: 1;
   color: #fff;
 }
 
 .header__title {
-  max-width: 67.5rem;
+  max-width: 1080px;
   font-family: "Bebas Neue Book";
-  font-size: 5rem;
+  font-size: 80px;
   line-height: 120%;
-  margin: 1.4375rem 0;
-  letter-spacing: 0.8px;
-  padding-bottom: 0.9375rem;
+  margin: 23px 0;
+  letter-spacing: 0.05rem;
+  padding-bottom: 15px;
 }
 
 .header__text {
-  max-width: 45rem;
+  max-width: 720px;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 16px;
   line-height: 160%;
-  margin-bottom: 3.125rem;
+  margin-bottom: 50px;
 }
 
 .header__features {
   display: flex;
   position: relative;
-  min-height: 10.5rem;
+  min-height: 168px;
   padding: 0;
-  margin-top: 6.25rem;
+  margin-top: 100px;
   list-style: none;
   color: #fff;
   z-index: 1;
@@ -192,14 +196,14 @@ body {
 
 .slider-buttons {
   display: none;
-  height: 44px;
+  height: 2.75rem;
 }
 
 .slider-button-prev,
 .slider-button-next {
   height: 100%;
   flex-basis: 50%;
-  border: 1px solid rgba(235, 235, 240, 0.2);
+  border: 0.0625rem solid rgba(235, 235, 240, 0.2);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -207,49 +211,49 @@ body {
 }
 
 .heder__features-item {
-  padding: 1.75rem 3.125rem;
+  padding: 28px 50px;
   min-height: 100%;
-  width: 18rem;
-  border: 1px solid rgba(235, 235, 240, 0.2);
+  width: 288px;
+  border: 0.0625rem solid rgba(235, 235, 240, 0.2);
 }
 
 .header__features-text {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 160%;
   margin-bottom: 0;
-  margin-top: 1.125rem;
+  margin-top: 18px;
 }
 
 .section {
-  margin-top: 8.5rem;
-  margin-bottom: 9.375rem;
+  margin-top: 136px;
+  margin-bottom: 150px;
 }
 
 .section__title {
   font-family: "Bebas Neue Book";
   font-weight: 700;
-  font-size: 3.75rem;
+  font-size: 60px;
   line-height: 105%;
   color: #292d33;
-  margin: 1.875rem 0 3.5625rem;
+  margin: 30px 0 57px;
 }
 
 .steps {
   display: flex;
   list-style: none;
   padding: 0;
-  gap: 1.875rem;
+  gap: 30px;
 }
 
 .steps__item {
-  max-width: 20.625rem;
+  max-width: 330px;
 }
 
 .steps__num {
   font-family: "Bebas Neue Book";
   font-weight: 800;
-  font-size: 3rem;
+  font-size: 48px;
   line-height: 120%;
   color: #5c8ee5;
   display: flex;
@@ -258,28 +262,28 @@ body {
 
 .steps__num::after {
   content: "";
-  height: 1px;
+  height: 0.0625rem;
   background: #ebebf0;
   width: 100%;
-  margin-left: 1.875rem;
+  margin-left: 30px;
 }
 
 .steps__title {
   font-weight: 400;
-  font-size: 1.75rem;
+  font-size: 28px;
   line-height: 160%;
   color: #292d33;
-  margin-top: 1.875rem;
-  margin-bottom: 0.625rem;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .steps__text {
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 16px;
   line-height: 160%;
   color: #828a99;
-  margin-top: 0.625rem;
-  margin-bottom: 1.25rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .steps__link {
@@ -287,22 +291,22 @@ body {
   align-items: center;
   text-decoration: none;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 16px;
   line-height: 160%;
   color: #5c8ee5;
 }
 
 .steps__link::before {
   content: "";
-  height: 1px;
+  height: 0.0625rem;
   background: #5c8ee5;
-  width: 40px;
-  margin-right: 20px;
+  width: 2.5rem;
+  margin-right: 1.25rem;
 }
 
-@media (max-width: 1700px) {
+@media (max-width: 106.25rem) {
   html {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 
   .header-image {
@@ -310,35 +314,35 @@ body {
   }
 }
 
-@media (max-width: 1460px) {
+@media (max-width: 91.25rem) {
   html {
-    font-size: 13px;
+    font-size: 0.8125rem;
   }
 
   .header__logo {
-    padding: 2rem;
+    padding: 32px;
   }
 
   .logo-svg {
-    min-width: 6rem;
+    min-width: 96px;
   }
 
   .header__nav {
-    padding-left: 2rem;
+    padding-left: 32px;
   }
 
   .header__nav-item:not(:last-child) {
-    margin-right: 1rem;
+    margin-right: 16px;
   }
 
   .header__phone {
-    margin-right: 2rem;
+    margin-right: 32px;
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 75rem) {
   .container {
-    min-width: 70rem;
+    min-width: 1120px;
   }
 
   .header__phone {
@@ -346,12 +350,12 @@ body {
   }
 
   .navbar {
-    height: 5rem;
+    height: 80px;
   }
 
   .navbar__button {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 
   .slider-buttons {
@@ -359,12 +363,12 @@ body {
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 62rem) {
   html {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
   .container {
-    min-width: 60rem;
+    min-width: 960px;
   }
 
   .header__nav {
@@ -377,13 +381,13 @@ body {
   }
 
   .mobile-menu-toggle {
-    width: 80px;
+    width: 5rem;
     height: 100%;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    padding: 1.8rem;
-    border-right: 1px solid rgba(235, 235, 240, 0.2);
+    padding: 28.8px;
+    border-right: 0.0625rem solid rgba(235, 235, 240, 0.2);
   }
 
   .navbar-light .mobile-menu-line {
@@ -391,7 +395,7 @@ body {
   }
 
   .mobile-menu-line {
-    height: 1px;
+    height: 0.0625rem;
     background-color: #fff;
     width: 100%;
     transition: transform 0.2s;
@@ -421,9 +425,9 @@ body {
     overflow-y: auto;
     z-index: 2;
     background-color: #fff;
-    padding-top: 5rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-top: 80px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 
   .mobile-menu.is-open {
@@ -436,13 +440,13 @@ body {
   }
 
   .mobile-menu__nav-item {
-    margin-bottom: 2rem;
+    margin-bottom: 32px;
   }
 
   .mobile-menu__nav-link {
     text-decoration: none;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 160%;
     color: #292d33;
   }
@@ -450,14 +454,14 @@ body {
   .mobile-submenu {
     list-style-type: none;
     padding: 0;
-    padding-left: 1rem;
-    margin-top: 1rem;
+    padding-left: 16px;
+    margin-top: 16px;
   }
 
   .mobile-submenu__link {
     text-decoration: none;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 160%;
     color: #828a99;
   }
@@ -465,20 +469,20 @@ body {
   .mobile-phone {
     display: block;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 160%;
     text-decoration-line: underline;
     color: #292d33;
-    border-top: 1px solid #ebebf0;
-    padding-top: 2rem;
-    margin-bottom: 1.5rem;
+    border-top: 0.0625rem solid #ebebf0;
+    padding-top: 32px;
+    margin-bottom: 24px;
   }
 
   .mobile-info {
     display: flex;
     align-items: center;
-    gap: 1rem;
-    margin-bottom: 1rem;
+    gap: 16px;
+    margin-bottom: 16px;
   }
 
   .mobile-info__address,
@@ -486,14 +490,14 @@ body {
     font-style: normal;
     text-decoration: none;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 160%;
     color: #292d33;
   }
 
   .mobile-social {
     display: flex;
-    gap: 15px;
+    gap: 0.9375rem;
   }
 
   .close-menu .mobile-menu-line:nth-child(2) {
@@ -501,38 +505,38 @@ body {
   }
 
   .close-menu .mobile-menu-line:nth-child(1) {
-    transform: rotate(45deg) translateY(9px);
+    transform: rotate(45deg) translateY(0.5625rem);
   }
 
   .close-menu .mobile-menu-line:nth-child(3) {
-    transform: rotate(-45deg) translateY(-9px);
+    transform: rotate(-45deg) translateY(-0.5625rem);
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
   .container {
-    max-width: 40rem;
+    max-width: 640px;
   }
 
   .header__title {
-    font-size: 4rem;
+    font-size: 64px;
   }
 
   .header-content {
-    padding-top: 3rem;
+    padding-top: 48px;
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 36rem) {
   .container {
     max-width: 90%;
   }
 
   .header__title {
-    font-size: 2.5rem;
+    font-size: 40px;
   }
 
   .header-content {
-    padding-top: 2rem;
+    padding-top: 32px;
   }
 }
