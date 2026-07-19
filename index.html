@@ -157,7 +157,7 @@
         <!-- /.header-content -->
 
         <!-- Основной блок слайдера -->
-        <div class="swiper">
+        <div class="swiper features-slider">
           <!-- Обертка слайдера -->
           <ul class="swiper-wrapper header__features">
             <!-- Слайды -->
@@ -222,45 +222,65 @@
       <div class="container">
         <div class="seporator"></div>
         <h2 class="section__title">схема работы</h2>
-        <ol class="steps">
-          <li class="steps__item">
-            <span class="steps__num">01</span>
-            <h3 class="steps__title">Знакомство</h3>
-            <p class="steps__text">
-              Безусловно, сплочённость команды профессионалов позволяет оценить
-              значение форм воздействия.
-            </p>
-            <a href="#" class="steps__link">Оставить заявку</a>
-          </li>
-          <li class="steps__item">
-            <span class="steps__num">02</span>
-            <h3 class="steps__title">
-              Заключение <br />
-              договора
-            </h3>
-            <p class="steps__text">
-              Лишь интерактивные прототипы призваны к ответу.
-            </p>
-          </li>
-          <li class="steps__item">
-            <span class="steps__num">03</span>
-            <h3 class="steps__title">Производство</h3>
-            <p class="steps__text">
-              А также стремящиеся вытеснить традиционное производство,
-              нанотехнологии функционально разнесены на независимые <br />
-              элементы.
-            </p>
-          </li>
-          <li class="steps__item">
-            <span class="steps__num">04</span>
-            <h3 class="steps__title">Доставка</h3>
-            <p class="steps__text">
-              В частности, экономическая повестка сегодняшнего дня говорит о
-              возможностях приоритизации <br />
-              разума над эмоциями.
-            </p>
-          </li>
-        </ol>
+
+        <!-- Slider main container -->
+        <div class="swiper steps-slider">
+          <!-- Additional required wrapper -->
+          <ol class="swiper-wrapper steps">
+            <!-- Slides -->
+            <li class="swiper-slide steps__item">
+              <span class="steps__num">01</span>
+              <h3 class="steps__title">Знакомство</h3>
+              <p class="steps__text">
+                Безусловно, сплочённость команды профессионалов позволяет
+                оценить значение форм воздействия.
+              </p>
+              <a href="#" class="steps__link">Оставить заявку</a>
+            </li>
+            <li class="swiper-slide steps__item">
+              <span class="steps__num">02</span>
+              <h3 class="steps__title">
+                Заключение <br />
+                договора
+              </h3>
+              <p class="steps__text">
+                Лишь интерактивные прототипы призваны к ответу.
+              </p>
+            </li>
+            <li class="swiper-slide steps__item">
+              <span class="steps__num">03</span>
+              <h3 class="steps__title">Производство</h3>
+              <p class="steps__text">
+                А также стремящиеся вытеснить традиционное производство,
+                нанотехнологии функционально разнесены на независимые <br />
+                элементы.
+              </p>
+            </li>
+            <li class="swiper-slide steps__item">
+              <span class="steps__num">04</span>
+              <h3 class="steps__title">Доставка</h3>
+              <p class="steps__text">
+                В частности, экономическая повестка сегодняшнего дня говорит о
+                возможностях приоритизации <br />
+                разума над эмоциями.
+              </p>
+            </li>
+          </ol>
+
+          <div class="steps-buttons">
+            <!-- If we need navigation buttons -->
+            <div class="steps-button-prev">
+              <svg width="36" height="24">
+                <use href="./img/sprite.svg#arrow-prev"></use>
+              </svg>
+            </div>
+            <div class="steps-button-next">
+              <svg width="36" height="24">
+                <use href="./img/sprite.svg#arrow-next"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
       </div>
       <!-- /.container -->
     </section>

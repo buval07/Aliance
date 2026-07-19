@@ -293,15 +293,32 @@ body {
   font-weight: 600;
   font-size: 1rem;
   line-height: 160%;
-  color: #5c8ee5;
+  color: #5c8ee6;
 }
 
 .steps__link::before {
   content: "";
   height: 1px;
-  background: #5c8ee5;
+  background: #5c8ee6;
   width: 40px;
   margin-right: 20px;
+}
+
+.steps-buttons {
+  display: none;
+  height: 40px;
+  justify-content: flex-end;
+}
+
+.steps-button-prev,
+.steps-button-next {
+  background: #5c8ee6;
+  height: 100%;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 
 @media (max-width: 1700px) {
@@ -359,6 +376,10 @@ body {
   }
 
   .slider-buttons {
+    display: flex;
+  }
+
+  .steps-buttons {
     display: flex;
   }
 }
